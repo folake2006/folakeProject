@@ -92,3 +92,11 @@ button:active {
     overflow-x: auto; /* This will allow scrolling if text overflows */
 }
 
+.active{
+    background: black;
+    color: white;
+}
+.hide{
+    display: none;
+}
+
