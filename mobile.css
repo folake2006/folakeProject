@@ -1,0 +1,30 @@
+/* Media Query for screens with max-width of 830px */
+@media (max-width: 830px) {
+    
+    nav button{
+        font-size: 11px;
+        font-weight: bold;
+        padding: 5px 2px;
+        border-radius: 10px;
+    }
+    nav{
+        width: 100%;
+    }
+    .text {
+        font-size: 5vw;
+        border: 2px solid;
+        padding: 10px;
+    }
+    .currency{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .convert{
+        margin: 10px 0;
+    }
+    .display{
+        font-size: 22px;
+    }
+}
