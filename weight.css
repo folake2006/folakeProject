@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .hh{
     border: 2px solid tomato;
 }
@@ -14,12 +15,13 @@ header{
 }
 nav{
     justify-content: space-evenly;
-    /* border: 2px solid tomato; */
+    /* border: 2px solid tomato; */ 
     width: 70%;
     display: flex;
     margin: 20px 0;
 
 }
+
 nav button{
     font-size: 40px;
     font-weight: bold;
@@ -27,6 +29,10 @@ nav button{
     border-radius: 20px;
 }
 /* Default styles */
+/* .pad{
+    margin-top: 500px;
+    border: 2px solid tomato;
+} */
 .gen {
     /* border: 2px solid tomato; */
     height: auto; 
@@ -72,6 +78,13 @@ nav button{
     margin-top: 20px;
 }
 
+.active{
+    background: black;
+    color: white;
+}
+.hide{
+    display: none;
+}
 
 
  

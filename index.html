@@ -12,12 +12,14 @@
     <header>
         <h1>CALCUWEIGHT</h1>
         <nav>
-            <button>Calculator</button>
-            <button>Weight-converter</button>
-            <button>Currency-converter</button>
+            <button class="calbtn">Calculator</button>
+            <button class="weightbtn">Weight-converter</button>
+            <!-- <button class="curenntn">Currency-converter</button> -->
+            <button class="currencybtn">Currency-converter</button>
+
         </nav>
     </header>
-    <div class="gen ">
+    <div class="gen pad currencyevent hide">
         <div class="enter"> 
             <label for="text" id="currency" class="currency">ENTER VALUE:</label>
             <input type="text" id="text" class="text" placeholder="Dollar or Naira" required>
@@ -27,7 +29,7 @@
             <input type="radio" id="dollarradio" name="btn" class="radio">
             <label for="" id="CEL" class="CEL " >Dollar</label><br>
         </div>
-        <div class="convert">
+        <div class="convert ">
             <input type="radio" id="nairaradio" name="btn" class="radio">
             <label for="" id="n" class="n" >NAIRA</label>
         </div>
@@ -44,7 +46,7 @@
     </div>
 
 
-    <div class=" gen body">
+    <div class=" gen body calculatorEvent">
         <section>
             <div class="container">
                 <input type="text" id="screen" placeholder="me" disabled />
@@ -77,11 +79,38 @@
         
 
     </div>
+    
+    <div class="gen weightEvent hide">
+        <div class="enter"> 
+            <label for="text" id="currency" class="currency">ENTER wieght:</label>
+            <input type="text" id="text" class="text" placeholder="Dollar or Naira" required>
+            <label for="" id="convert" class="convert">CONVERT TO:</label>
+        </div>
+        <div class="convert">
+            <input type="radio" id="dollarradio" name="btn" class="radio">
+            <label for="" id="CEL" class="CEL " >Kg</label><br>
+        </div>
+        <div class="convert"> 
+            <input type="radio" id="nairaradio" name="btn" class="radio">
+            <label for="" id="n" class="n" >Pounds</label>
+        </div>
+        <div class="convert">
+            <button id="submitbtn" class="sub">Submit</button>
+        </div>
+        <div class="convert">
+            <p id="display" class="display"></p>
+        </div>
+    
+    
+        
+
+    </div>
 
 
 
 
     <script src="./weight.js"></script>
     <script src="./calculator.js"></script>
+    <script src="./eventEmeter.js"></script>
 </body>
 </html>
