@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: orange;
 }
 
 /* Section to contain the whole calculator */
@@ -33,6 +34,7 @@ section {
     padding: 20px;
     min-width: 280px; /* Set a fixed width for the calculator */
     /* border: 2px solid tomato; */
+    background-color: orangered;
 }
 
 /* Display area for the result */
@@ -46,6 +48,7 @@ section {
     background-color: #f9f9f9;
     margin-bottom: 20px;
     /* background: red; */
+    background-color: rgba(255, 166, 0, 0.863);
 }
 
 /* Button layout */
@@ -66,14 +69,15 @@ button {
     cursor: pointer;
     transition: background-color 0.2s ease;
     outline: none;
+    background-color: rosybrown;
 }
 
 button:hover {
-    background-color: #e0e0e0;
+    background-color: burlywood;
 }
 
 button:active {
-    background-color: #d0d0d0;
+    background-color: navajowhite;
 }
 
 
@@ -86,7 +90,7 @@ button:active {
     text-align: right;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: bisque;
     margin-bottom: 20px;
     box-sizing: border-box; /* Ensure padding doesn't increase the width */
     overflow-x: auto; /* This will allow scrolling if text overflows */
